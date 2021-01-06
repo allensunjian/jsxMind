@@ -66,7 +66,7 @@
 
     jcanvas.fittingString = function (ctx, text, max_width) {
         var width = ctx.measureText(text).width;
-        var ellipsis = '…'
+        var ellipsis = '…';
         var ellipsis_width = ctx.measureText(ellipsis).width;
         if (width <= max_width || width <= ellipsis_width) {
             return text;
@@ -170,7 +170,7 @@
             ctx.textBaseline = 'bottom';
             ctx.fillStyle = '#000';
             ctx.font = '11px Verdana,Arial,Helvetica,sans-serif';
-            ctx.fillText('锐仕方达人力资源集团', c.width - 5.5, c.height - 2.5);
+            ctx.fillText('hizzgdev.github.io/jsmind', c.width - 5.5, c.height - 2.5);
             ctx.textAlign = 'left';
             ctx.fillText($w.location, 5.5, c.height - 2.5);
         },
